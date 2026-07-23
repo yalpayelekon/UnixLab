@@ -1,0 +1,40 @@
+name: Design proposal
+description: Propose a tool, feature, or architecture change
+title: "proposal: "
+labels: ["proposal", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the need without assuming a particular solution.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope
+      description: Include compatibility goals and explicit non-goals.
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Design outline
+      description: Discuss interfaces, portability, resource behavior, and dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Validation strategy
+      description: Explain how correctness and cross-platform behavior can be tested.
+    validations:
+      required: true
+

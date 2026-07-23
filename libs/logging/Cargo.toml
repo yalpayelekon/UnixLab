@@ -1,0 +1,13 @@
+[package]
+name = "unixlab-logging"
+version = "0.0.0"
+description = "Consistent diagnostic logging setup for UnixLab applications"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+

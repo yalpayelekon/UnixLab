@@ -1,0 +1,13 @@
+[package]
+name = "unixlab-cli"
+version = "0.0.0"
+description = "Shared command-line interface conventions for UnixLab"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+

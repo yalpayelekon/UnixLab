@@ -1,0 +1,13 @@
+[package]
+name = "unixlab-errors"
+version = "0.0.0"
+description = "Shared error-reporting contracts for UnixLab applications"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+

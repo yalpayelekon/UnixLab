@@ -1,0 +1,13 @@
+[package]
+name = "unixlab-common"
+version = "0.0.0"
+description = "Small, domain-neutral primitives shared across UnixLab"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+

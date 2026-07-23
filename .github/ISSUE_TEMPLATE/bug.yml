@@ -1,0 +1,51 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "bug: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve UnixLab. Do not report security
+        vulnerabilities here; follow SECURITY.md instead.
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: Application or library affected
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: Include exact output and exit status where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Provide the smallest deterministic sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: UnixLab version or commit
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and architecture
+      placeholder: Windows 11 x86_64
+    validations:
+      required: true
+
