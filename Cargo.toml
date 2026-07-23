@@ -9,6 +9,7 @@ repository = "https://github.com/yalpayelekon/UnixLab"
 rust-version = "1.85"
 
 [workspace.dependencies]
+regex = "1.13.1"
 unixlab-cli = { path = "libs/cli" }
 unixlab-common = { path = "libs/common" }
 unixlab-errors = { path = "libs/errors" }

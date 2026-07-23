@@ -1,0 +1,20 @@
+[package]
+name = "needle"
+version = "0.1.0"
+description = "A modern, cross-platform grep-like utility"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+regex.workspace = true
+
+[[bench]]
+name = "search"
+harness = false
+
+[lints]
+workspace = true
+

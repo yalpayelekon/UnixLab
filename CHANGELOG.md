@@ -11,4 +11,5 @@ libraries once their public APIs stabilize.
 ### Added
 
 - Initial Cargo workspace and project governance foundation.
-
+- Needle 0.1 single-file UTF-8 regular-expression search with terminal-aware
+  match highlighting and grep-compatible core exit statuses.

@@ -43,6 +43,6 @@ must use `!` or a `BREAKING CHANGE:` footer.
 - Do not add a dependency without explaining its maintenance and portability
   cost.
 
-See [docs/engineering-guidelines.md](docs/engineering-guidelines.md) for the
-full quality standard.
-
+Begin with the binding [engineering manifesto](ENGINEERING.md), then see
+[docs/engineering-guidelines.md](docs/engineering-guidelines.md) for the
+detailed quality standard.

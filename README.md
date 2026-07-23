@@ -5,13 +5,14 @@ Unix tools written in Rust. It is a systems-programming laboratory, not a
 collection of coding challenges: each tool is expected to be documented,
 tested, portable, maintainable, and useful on its own.
 
-The project is in its foundation phase. No Unix tools are implemented yet.
+The project is in its early development phase. Needle 0.1 is the first
+implemented application.
 
 ## Planned tools
 
 | Project | Inspiration | Status |
 | --- | --- | --- |
-| `needle` | `grep` | Planned |
+| [`needle`](apps/needle) | `grep` | 0.1 |
 | `tide` | `curl` | Planned |
 | `hush` | Unix shells | Planned |
 | `quartz` | JSON parsers | Planned |
@@ -31,7 +32,8 @@ implementation.
 - `.github/` contains CI and community configuration.
 
 Read [the architecture guide](docs/architecture.md) and
-[engineering guidelines](docs/engineering-guidelines.md) before proposing a
+[engineering manifesto](ENGINEERING.md), followed by the detailed
+[engineering guidelines](docs/engineering-guidelines.md), before proposing a
 new tool.
 
 ## Development
@@ -57,4 +59,3 @@ substantial changes. Commits follow the Conventional Commits specification.
 ## License
 
 UnixLab is licensed under the [MIT License](LICENSE).
-
