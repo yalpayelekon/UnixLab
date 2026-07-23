@@ -13,3 +13,4 @@ libraries once their public APIs stabilize.
 - Initial Cargo workspace and project governance foundation.
 - Needle 0.1 single-file UTF-8 regular-expression search with terminal-aware
   match highlighting and grep-compatible core exit statuses.
+- Tide 0.1 streaming HTTP/HTTPS GET client with bounded redirects and timeout.

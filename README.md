@@ -5,15 +5,15 @@ Unix tools written in Rust. It is a systems-programming laboratory, not a
 collection of coding challenges: each tool is expected to be documented,
 tested, portable, maintainable, and useful on its own.
 
-The project is in its early development phase. Needle 0.1 is the first
-implemented application.
+The project is in its early development phase. Needle and Tide are the first
+implemented applications.
 
 ## Planned tools
 
 | Project | Inspiration | Status |
 | --- | --- | --- |
 | [`needle`](apps/needle) | `grep` | 0.1 |
-| `tide` | `curl` | Planned |
+| [`tide`](apps/tide) | `curl` | 0.1 |
 | `hush` | Unix shells | Planned |
 | `quartz` | JSON parsers | Planned |
 | `branch` | Git clients | Planned |
