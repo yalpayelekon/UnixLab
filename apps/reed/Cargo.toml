@@ -1,0 +1,19 @@
+[package]
+name = "reed"
+version = "0.1.0"
+description = "A modern, cross-platform sed-inspired stream editor"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+regex.workspace = true
+
+[[bench]]
+name = "transform"
+harness = false
+
+[lints]
+workspace = true
