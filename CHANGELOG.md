@@ -16,3 +16,4 @@ libraries once their public APIs stabilize.
 - Tide 0.1 streaming HTTP/HTTPS GET client with bounded redirects and timeout.
 - Reed 0.1 sed-inspired stream editor with addresses and `s` / `p` / `d`.
 - Quartz 0.1 jq-inspired JSON path query with compact or pretty output.
+- Resolver 0.1 dig/host-inspired DNS address lookup via the system resolver.

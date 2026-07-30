@@ -1,0 +1,16 @@
+[package]
+name = "resolver"
+version = "0.1.0"
+description = "A modern, cross-platform dig/host-inspired DNS lookup tool"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bench]]
+name = "lookup"
+harness = false
+
+[lints]
+workspace = true

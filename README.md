@@ -5,8 +5,8 @@ Unix tools written in Rust. It is a systems-programming laboratory, not a
 collection of coding challenges: each tool is expected to be documented,
 tested, portable, maintainable, and useful on its own.
 
-The project is in its early development phase. Needle, Tide, Reed, and Quartz
-are the first implemented applications.
+The project is in its early development phase. Needle, Tide, Reed, Quartz, and
+Resolver are the first implemented applications.
 
 ## Planned tools
 
@@ -18,7 +18,7 @@ are the first implemented applications.
 | `hush` | Unix shells | Planned |
 | [`quartz`](apps/quartz) | JSON parsers | 0.1 |
 | `branch` | Git clients | Planned |
-| `resolver` | DNS tools | Planned |
+| [`resolver`](apps/resolver) | DNS tools | 0.1 |
 
 Names and scope remain subject to an architecture proposal before
 implementation.
