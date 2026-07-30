@@ -1,0 +1,19 @@
+[package]
+name = "quartz"
+version = "0.1.0"
+description = "A modern, cross-platform jq-inspired JSON query tool"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+serde_json.workspace = true
+
+[[bench]]
+name = "query"
+harness = false
+
+[lints]
+workspace = true
